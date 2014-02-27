@@ -1,0 +1,61 @@
+{
+   "abstract" : "simple policy for enforcing use of Params::Validate",
+   "author" : [
+      "Jonas B. Nielsen, (jonasbn) <jonasbn@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4005, CPAN::Meta::Converter version 2.132830",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Perl-Critic-Policy-logicLAB-RequireParamsValidate",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "File::Spec" : "0",
+            "Test::Perl::Critic" : "0",
+            "Test::Prereq::Build" : "0"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.40"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "List::MoreUtils" : "0",
+            "Params::Validate" : "0",
+            "Perl::Critic::Policy" : "0",
+            "Perl::Critic::Utils" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Perl::Critic::Policy::logicLAB::RequireParamsValidate" : {
+         "file" : "lib/Perl/Critic/Policy/logicLAB/RequireParamsValidate.pm",
+         "version" : "0.01"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=Perl-Critic-Policy-logicLAB-RequireParamsValidate"
+      },
+      "homepage" : "http://logiclab.jira.com/wiki/display/PCPLRPV/Home",
+      "license" : [
+         "http://www.perlfoundation.org/artistic_license_2_0"
+      ],
+      "repository" : {
+         "url" : "https://github.com/jonasbn/pcplrpv"
+      },
+      "x_ProjectChangelog" : "http://logiclab.jira.com/browse/PCPLRPV#selectedTab=com.atlassian.jira.plugin.system.project%3Achangelog-panel",
+      "x_ProjectSite" : "http://logicLAB.jira.com/browse/PCPLRPV",
+      "x_ProjectWiki" : "http://logiclab.jira.com/wiki/display/PCPLRPV/Home"
+   },
+   "version" : "0.01"
+}
